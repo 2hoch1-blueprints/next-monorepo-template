@@ -4,9 +4,13 @@
   "private": true,
   "type": "module",
   "exports": {
+    ".": "./base.js",
     "./base": "./base.js",
     "./react-internal": "./react-internal.js",
     "./next": "./next.js"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

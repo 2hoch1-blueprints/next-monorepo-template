@@ -51,7 +51,7 @@ build:
           - next.config.*
           - apps/*/next.config.*
           - eslint.config.js
-          - .prettierrc
+          - prettier.config.js
           - .prettierignore
           - .editorconfig
           - .gitignore
